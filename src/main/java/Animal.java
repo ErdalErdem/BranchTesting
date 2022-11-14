@@ -8,4 +8,11 @@ public abstract class Animal{
 
   public abstract void makeSound();
 
+public boolean eat(String foodType) {
+    return true;
 }
+
+}
+
+
+
