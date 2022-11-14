@@ -8,4 +8,7 @@ public abstract class Animal{
 
   public abstract void makeSound();
 
+    public String toString() {
+        return name;
+    }
 }
