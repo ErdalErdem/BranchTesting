@@ -10,6 +10,9 @@ public abstract class Animal{
 
 public boolean eat(String foodType) {
     return true;
+    public String toString() {
+        return name;
+    }
 }
 
 }
